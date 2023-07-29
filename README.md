@@ -1,4 +1,5 @@
-# GeekTrust-CourseScheduling
+# [GeekTrust-CourseScheduling](https://www.geektrust.com/coding/detailed/course-scheduling)
+
 The head of the Learning management system (LMS) has hired you as a consultant. The LMS team has the goal of upskilling the employees with the latest topics via courses. You need to help build a system to schedule and manage the courses.
 
 # Goal
@@ -62,3 +63,4 @@ There are 2 statuses: `CANCEL_ACCEPTED` when the cancellation is successful and 
 4. None of the input fields accept whitespace (whitespace acts as a delimiter between fields).
 5. Course offering ID generated is a combination of `OFFERING-<COURSENAME>-<INSTRUCTORNAME>`.
 6. Registration ID generated is a combination of `REG-COURSE-<EMPLOYEENAME>-<COURSENAME>`. `<EMPLOYEENAME>` is extracted from the email ID, which is everything before the @ sign in the email.
+
