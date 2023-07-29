@@ -78,7 +78,7 @@ public class CourseRepository implements ICourse{
         List<Employee> employees = course.getEmployees();
 
         for (Employee employee : employees) {
-            Allotment allotment = new Allotment(employee.getRegNum(), employee.getEmailId(), course.getOffering(), course.getTitle(), course.getInstructor(), course.getDate(), course.getStatus());
+            Allotment allotment = new Allotment(employee, course);
             allotments.add(allotment);
         }
         Collections.sort(allotments);
